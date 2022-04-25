@@ -1,0 +1,68 @@
+.border{
+    width: 80%;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+   
+}
+.firstyellow{
+width: 40px;
+height: 40px;
+background-color: yellow;
+position: absolute;
+top: 15px;
+left: 30px;
+}
+.secondyellow{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 15px;
+    left: 25%;
+}
+.thirthyellow{
+    width: 20px;
+    height: 40px;
+    position: relative;
+    left: 15px;
+    border: 2px solid green;
+}
+.secondyellow *{
+bottom: 0;
+}
+
+.firstblue{
+    width: 20%;
+    height: 30px;
+    background-color: yellow;
+    position: relative;
+    top: 20px;
+}
+.redbox{
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0px;
+
+}
+.thirthyellow{
+    width: 20%;
+    height: 25px;
+    background-color: yellow;
+    position: relative;
+    left: 40%;
+    bottom: 5px;
+
+}
+
+.thirthblue{
+    width: 50px;
+    height: 25px;
+    background-color: purple;
+    position: absolute;
+    right: 20px;
+}
